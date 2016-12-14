@@ -1,17 +1,6 @@
 " Vim syntax file
 " Language:     fac
-"
-" HOWTO use:
-" 1) Add this to your ~/.vim/filetype.vim -
-" au BufNewFile,BufRead Tupfile,*.tup setf tup
-"
-" 2) Add a symlink to this file in ~/.vim/syntax/ -
-" mkdir -p ~/.vim/syntax
-" cd ~/.vim/syntax
-" ln -s /path/to/tup.vim
 
-" For version 5.x: Clear all syntax items
-" For version 6.x: Quit when a syntax file was already loaded
 if version < 600
   syntax clear
 elseif exists("b:current_syntax")
