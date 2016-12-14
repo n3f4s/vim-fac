@@ -9,6 +9,13 @@ endif
 
 syntax case match
 
+syntax match rule ,^|.*$,
+highlight def rule ctermfg=red cterm=bold
+syntax match output ,^>.*$,
+highlight def output ctermfg=yellow
+syntax match input ,^<.*$,
+highlight def input ctermfg=green
+
 syntax keyword rules |
 syntax keyword rules >
 syntax keyword rules <
