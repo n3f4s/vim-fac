@@ -9,7 +9,9 @@ endif
 
 syntax case match
 
-syntax keyword rules | > <
+syntax keyword rules |
+syntax keyword rules >
+syntax keyword rules <
 highlight link rules Keyword
 
 syntax match comment ,^\s*#.*$,

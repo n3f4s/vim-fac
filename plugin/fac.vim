@@ -2,4 +2,4 @@
 "
 " Adds fac support to vim.
 
-au BufRead,BufNewFile *.fac setfiletype fac
+au BufRead,BufNewFile .fac,*.fac setfiletype fac
