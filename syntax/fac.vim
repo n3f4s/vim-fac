@@ -16,9 +16,9 @@ highlight def output ctermfg=yellow
 syntax match input ,^<.*$,
 highlight def input ctermfg=green
 
-syntax keyword rules |
-syntax keyword rules >
-syntax keyword rules <
+syntax keyword rules \|
+syntax keyword rules \>
+syntax keyword rules \<
 highlight link rules Keyword
 
 syntax match comment ,^\s*#.*$,
